@@ -3,14 +3,16 @@
 	"name": "rawgitkit",
 	"version": "1.0",
 	"description": "该插件使用rawgit技术查看github项目中的html页面",
-	//"background_page": "background.html",        //这个html页面用来保存插件的主要逻辑
-	"permissions": [                             //权限设置，用来定义所需的网络信息，实现跨越
+	"author": "dragonwong",
+	"homepage_url": "https://github.com/dragonwong/rawgitkit",
+
+	"permissions": [
 		"tabs"
 	],
 	"background": {
 		"scripts": ["background.js"]
 	},
-	"browser_action": {                          //浏览器行为
+	"browser_action": {
 		"default_icon": "icon.png"
 	}
 }
