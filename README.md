@@ -1,2 +1,2 @@
 # rawgitkit
-a chrome extension to view html page of github
+a chrome extension to view html
